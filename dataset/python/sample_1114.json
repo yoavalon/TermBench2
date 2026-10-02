@@ -1,0 +1,15 @@
+{
+    "id": "sample_1114",
+    "category": "recursion",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 31,
+    "domain": "abstract syntax tree semantic linting",
+    "ast_nodes": 191,
+    "cfg_nodes": 121,
+    "cyclomatic_complexity": 6,
+    "loop_count": 1,
+    "function_count": 4,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.47
+}

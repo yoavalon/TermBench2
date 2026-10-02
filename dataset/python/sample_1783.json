@@ -1,0 +1,15 @@
+{
+    "id": "sample_1783",
+    "category": "data_mutations",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 51,
+    "domain": "decentralized ledger consensus mechanics",
+    "ast_nodes": 320,
+    "cfg_nodes": 186,
+    "cyclomatic_complexity": 6,
+    "loop_count": 5,
+    "function_count": 10,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.1
+}

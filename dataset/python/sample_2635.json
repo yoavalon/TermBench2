@@ -1,0 +1,15 @@
+{
+    "id": "sample_2635",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 36,
+    "domain": "3D coordinate geometry transformations",
+    "ast_nodes": 514,
+    "cfg_nodes": 296,
+    "cyclomatic_complexity": 3,
+    "loop_count": 1,
+    "function_count": 5,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 144.09
+}

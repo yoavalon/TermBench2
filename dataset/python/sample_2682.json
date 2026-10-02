@@ -1,0 +1,15 @@
+{
+    "id": "sample_2682",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 59,
+    "domain": "graph traversal and shortest path routing",
+    "ast_nodes": 474,
+    "cfg_nodes": 283,
+    "cyclomatic_complexity": 9,
+    "loop_count": 3,
+    "function_count": 9,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.44
+}

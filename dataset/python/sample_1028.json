@@ -1,0 +1,15 @@
+{
+    "id": "sample_1028",
+    "category": "recursion",
+    "label": "non_terminating",
+    "length": "medium",
+    "logical_loc": 23,
+    "domain": "decentralized ledger consensus mechanics",
+    "ast_nodes": 115,
+    "cfg_nodes": 79,
+    "cyclomatic_complexity": 9,
+    "loop_count": 3,
+    "function_count": 4,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 6.3
+}

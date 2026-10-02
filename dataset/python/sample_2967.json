@@ -1,0 +1,15 @@
+{
+    "id": "sample_2967",
+    "category": "mathematical_sequences",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 33,
+    "domain": "supply chain logistics optimization",
+    "ast_nodes": 175,
+    "cfg_nodes": 105,
+    "cyclomatic_complexity": 6,
+    "loop_count": 3,
+    "function_count": 8,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2002.84
+}

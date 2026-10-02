@@ -1,0 +1,15 @@
+{
+    "id": "sample_0287",
+    "category": "boundary_conditions",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 34,
+    "domain": "3D coordinate geometry transformations",
+    "ast_nodes": 302,
+    "cfg_nodes": 167,
+    "cyclomatic_complexity": 5,
+    "loop_count": 3,
+    "function_count": 6,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.94
+}

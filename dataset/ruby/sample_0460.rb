@@ -1,0 +1,22 @@
+def calculate_altitude(speed, wind, payload)
+  altitude = 10000 + speed * wind / payload
+  return altitude
+end
+
+def update_conditions(speed, wind, payload, increment)
+  speed += increment
+  wind -= increment
+  payload += increment
+  return [speed, wind, payload]
+end
+
+def main
+  speed, wind, payload = 500, 20, 1000
+  while true
+    altitude = calculate_altitude(speed, wind, payload)
+    speed, wind, payload = update_conditions(speed, wind, payload, 10)
+    puts "Altitude: #{altitude}m, Speed: #{speed}km/h, Wind: #{wind}km/h, Payload: #{payload}kg"
+  end
+end
+
+main

@@ -1,0 +1,15 @@
+{
+    "id": "sample_0881",
+    "category": "recursion",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 39,
+    "domain": "state machines for network connections",
+    "ast_nodes": 201,
+    "cfg_nodes": 130,
+    "cyclomatic_complexity": 10,
+    "loop_count": 2,
+    "function_count": 7,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.18
+}

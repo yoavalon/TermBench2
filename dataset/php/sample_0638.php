@@ -1,0 +1,10 @@
+<?php
+function transform_3d($x, $y, $z, $n) {
+    if ($n == 0) {
+        return array($x, $y, $z);
+    }
+    return transform_3d($y, $z, $x, $n - 1);
+}
+
+transform_3d(1, 2, 3, 5);
+?>

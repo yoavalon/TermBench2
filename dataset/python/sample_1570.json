@@ -1,0 +1,15 @@
+{
+    "id": "sample_1570",
+    "category": "data_mutations",
+    "label": "non_terminating",
+    "length": "short",
+    "logical_loc": 10,
+    "domain": "reinforcement learning reward decay",
+    "ast_nodes": 54,
+    "cfg_nodes": 32,
+    "cyclomatic_complexity": 2,
+    "loop_count": 1,
+    "function_count": 2,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.05
+}

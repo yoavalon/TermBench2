@@ -1,0 +1,15 @@
+{
+    "id": "sample_2287",
+    "category": "floating_point_precision",
+    "label": "non_terminating",
+    "length": "medium",
+    "logical_loc": 16,
+    "domain": "cryptographic hashing and cipher simulations",
+    "ast_nodes": 116,
+    "cfg_nodes": 72,
+    "cyclomatic_complexity": 5,
+    "loop_count": 4,
+    "function_count": 3,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.51
+}

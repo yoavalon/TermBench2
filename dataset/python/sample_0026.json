@@ -1,0 +1,15 @@
+{
+    "id": "sample_0026",
+    "category": "boundary_conditions",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 14,
+    "domain": "particle swarm optimization algorithms",
+    "ast_nodes": 128,
+    "cfg_nodes": 75,
+    "cyclomatic_complexity": 4,
+    "loop_count": 1,
+    "function_count": 2,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.78
+}

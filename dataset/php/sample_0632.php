@@ -1,0 +1,20 @@
+<?php
+function align($a, $b, $i, $j) {
+    if ($i == 0 || $j == 0) {
+        return 0;
+    }
+    if ($a[$i - 1] == $b[$j - 1]) {
+        return 1 + align($a, $b, $i - 1, $j - 1);
+    } else {
+        return max(align($a, $b, $i - 1, $j), align($a, $b, $i, $j - 1));
+    }
+}
+
+function main() {
+    $seq1 = 'AGGTAB';
+    $seq2 = 'GXTXAYB';
+    $result = align(str_split($seq1), str_split($seq2), strlen($seq1), strlen($seq2));
+    echo $result;
+}
+main();
+?>

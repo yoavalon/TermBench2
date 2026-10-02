@@ -1,0 +1,15 @@
+{
+    "id": "sample_2648",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 42,
+    "domain": "natural language processing vectorization",
+    "ast_nodes": 383,
+    "cfg_nodes": 215,
+    "cyclomatic_complexity": 5,
+    "loop_count": 2,
+    "function_count": 10,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 151.4
+}

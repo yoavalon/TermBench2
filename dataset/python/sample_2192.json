@@ -1,0 +1,15 @@
+{
+    "id": "sample_2192",
+    "category": "floating_point_precision",
+    "label": "non_terminating",
+    "length": "short",
+    "logical_loc": 6,
+    "domain": "reinforcement learning reward decay",
+    "ast_nodes": 24,
+    "cfg_nodes": 16,
+    "cyclomatic_complexity": 2,
+    "loop_count": 1,
+    "function_count": 1,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.66
+}

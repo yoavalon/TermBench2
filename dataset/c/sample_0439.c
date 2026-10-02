@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define SIZE 50
+
+void update_grid(int grid[SIZE][SIZE]) {
+    int rows = SIZE, cols = SIZE;
+    int new_grid[SIZE][SIZE];
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            int neighbors = 0;
+            for (int di = -1; di <= 1; di++) {
+                for (int dj = -1; dj <= 1; dj++) {
+                    int ni = i + di, nj = j + dj;
+                    if (ni >= 0 && ni < rows && nj >= 0 && nj < cols) {
+                        neighbors += grid[ni][nj];
+                    }
+                }
+            }
+            neighbors -= grid[i][j];
+            if (grid[i][j] == 1 && (neighbors < 2 || neighbors > 3)) {
+                new_grid[i][j] = 0;
+            } else if (grid[i][j] == 0 && neighbors == 3) {
+                new_grid[i][j] = 1;
+            } else {
+                new_grid[i][j] = grid[i][j];
+            }
+        }
+    }
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            grid[i][j] = new_grid[i][j];
+        }
+    }
+}
+
+void main() {
+    srand(time(NULL));
+    int grid[SIZE][SIZE];
+    for (int i = 0; i < SIZE; i++) {
+        for (int j = 0; j < SIZE; j++) {
+            grid[i][j] = rand() % 2;
+        }
+    }
+    while (1) {
+        update_grid(grid);
+    }
+}

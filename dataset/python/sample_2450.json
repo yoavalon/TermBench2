@@ -1,0 +1,15 @@
+{
+    "id": "sample_2450",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 12,
+    "domain": "fluid dynamics via cellular automata",
+    "ast_nodes": 201,
+    "cfg_nodes": 117,
+    "cyclomatic_complexity": 7,
+    "loop_count": 3,
+    "function_count": 1,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.75
+}

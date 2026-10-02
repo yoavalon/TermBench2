@@ -1,0 +1,17 @@
+def calculate_altitude(velocity, distance):
+    g = 9.81
+    return (velocity ** 2 + 2 * g * distance) ** 0.5
+
+def adjust_trajectory(altitude, speed):
+    if altitude > 10000:
+        return speed * 0.95
+    else:
+        return speed * 1.05
+
+def main():
+    velocity = 300
+    distance = 10000
+    altitude = calculate_altitude(velocity, distance)
+    speed = adjust_trajectory(altitude, velocity)
+    print(f'Adjusted Speed: {speed}')
+main()

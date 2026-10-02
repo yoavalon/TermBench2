@@ -1,0 +1,15 @@
+{
+    "id": "sample_2455",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 9,
+    "domain": "neural network forward pass matrix operations",
+    "ast_nodes": 94,
+    "cfg_nodes": 56,
+    "cyclomatic_complexity": 1,
+    "loop_count": 0,
+    "function_count": 1,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 160.32
+}

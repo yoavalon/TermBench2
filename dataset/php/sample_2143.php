@@ -1,0 +1,18 @@
+<?php
+function flight_altitude_planning() {
+    $a = 36000.0;
+    $b = 10.0;
+    $c = 0.001;
+    $i = 0;
+    while (true) {
+        $a += $b * $c;
+        $b -= $c;
+        $c *= 2;
+        $i += 1;
+        if ($i % 1000 == 0) {
+            echo "$a $b $c\n";
+        }
+    }
+}
+flight_altitude_planning();
+?>

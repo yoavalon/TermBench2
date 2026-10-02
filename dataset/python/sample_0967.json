@@ -1,0 +1,15 @@
+{
+    "id": "sample_0967",
+    "category": "recursion",
+    "label": "non_terminating",
+    "length": "short",
+    "logical_loc": 12,
+    "domain": "fluid dynamics via cellular automata",
+    "ast_nodes": 212,
+    "cfg_nodes": 127,
+    "cyclomatic_complexity": 3,
+    "loop_count": 2,
+    "function_count": 2,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 251.43
+}

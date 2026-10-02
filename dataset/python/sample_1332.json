@@ -1,0 +1,15 @@
+{
+    "id": "sample_1332",
+    "category": "data_mutations",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 21,
+    "domain": "genomic sequence alignment algorithms",
+    "ast_nodes": 258,
+    "cfg_nodes": 155,
+    "cyclomatic_complexity": 6,
+    "loop_count": 4,
+    "function_count": 2,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.13
+}

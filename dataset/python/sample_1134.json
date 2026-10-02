@@ -1,0 +1,15 @@
+{
+    "id": "sample_1134",
+    "category": "recursion",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 43,
+    "domain": "digital signal processing",
+    "ast_nodes": 315,
+    "cfg_nodes": 180,
+    "cyclomatic_complexity": 4,
+    "loop_count": 0,
+    "function_count": 10,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 12.18
+}

@@ -1,0 +1,15 @@
+{
+    "id": "sample_0263",
+    "category": "boundary_conditions",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 41,
+    "domain": "reinforcement learning reward decay",
+    "ast_nodes": 262,
+    "cfg_nodes": 158,
+    "cyclomatic_complexity": 5,
+    "loop_count": 2,
+    "function_count": 8,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.03
+}

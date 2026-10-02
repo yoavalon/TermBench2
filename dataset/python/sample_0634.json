@@ -1,0 +1,15 @@
+{
+    "id": "sample_0634",
+    "category": "recursion",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 13,
+    "domain": "biostatistical p-value permutations",
+    "ast_nodes": 99,
+    "cfg_nodes": 61,
+    "cyclomatic_complexity": 2,
+    "loop_count": 0,
+    "function_count": 2,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 5.6
+}

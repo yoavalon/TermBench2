@@ -1,0 +1,15 @@
+{
+    "id": "sample_2465",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 10,
+    "domain": "document parsing and lexical tokenization",
+    "ast_nodes": 67,
+    "cfg_nodes": 41,
+    "cyclomatic_complexity": 1,
+    "loop_count": 0,
+    "function_count": 2,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.87
+}

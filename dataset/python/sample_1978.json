@@ -1,0 +1,15 @@
+{
+    "id": "sample_1978",
+    "category": "floating_point_precision",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 15,
+    "domain": "digital signal processing",
+    "ast_nodes": 103,
+    "cfg_nodes": 60,
+    "cyclomatic_complexity": 1,
+    "loop_count": 0,
+    "function_count": 3,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 97.76
+}

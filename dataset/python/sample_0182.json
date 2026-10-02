@@ -1,0 +1,15 @@
+{
+    "id": "sample_0182",
+    "category": "boundary_conditions",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 18,
+    "domain": "digital signal processing",
+    "ast_nodes": 107,
+    "cfg_nodes": 66,
+    "cyclomatic_complexity": 3,
+    "loop_count": 1,
+    "function_count": 3,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.75
+}

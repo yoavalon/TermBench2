@@ -1,0 +1,15 @@
+{
+    "id": "sample_2030",
+    "category": "floating_point_precision",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 40,
+    "domain": "neural network forward pass matrix operations",
+    "ast_nodes": 257,
+    "cfg_nodes": 147,
+    "cyclomatic_complexity": 3,
+    "loop_count": 1,
+    "function_count": 8,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 124.54
+}

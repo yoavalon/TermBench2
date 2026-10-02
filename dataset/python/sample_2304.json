@@ -1,0 +1,15 @@
+{
+    "id": "sample_2304",
+    "category": "floating_point_precision",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 36,
+    "domain": "financial Monte Carlo option pricing models",
+    "ast_nodes": 316,
+    "cfg_nodes": 182,
+    "cyclomatic_complexity": 4,
+    "loop_count": 3,
+    "function_count": 6,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2002.82
+}

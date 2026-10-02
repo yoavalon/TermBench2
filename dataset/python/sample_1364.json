@@ -1,0 +1,15 @@
+{
+    "id": "sample_1364",
+    "category": "data_mutations",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 20,
+    "domain": "cryptographic hashing and cipher simulations",
+    "ast_nodes": 141,
+    "cfg_nodes": 86,
+    "cyclomatic_complexity": 3,
+    "loop_count": 1,
+    "function_count": 3,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.16
+}

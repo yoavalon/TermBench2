@@ -1,0 +1,15 @@
+{
+    "id": "sample_0200",
+    "category": "boundary_conditions",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 21,
+    "domain": "temporal frame sequence tracking",
+    "ast_nodes": 110,
+    "cfg_nodes": 73,
+    "cyclomatic_complexity": 6,
+    "loop_count": 2,
+    "function_count": 3,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.7
+}

@@ -1,0 +1,15 @@
+{
+    "id": "sample_1335",
+    "category": "data_mutations",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 21,
+    "domain": "abstract syntax tree semantic linting",
+    "ast_nodes": 116,
+    "cfg_nodes": 82,
+    "cyclomatic_complexity": 9,
+    "loop_count": 2,
+    "function_count": 2,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.18
+}

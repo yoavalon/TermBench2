@@ -1,0 +1,15 @@
+{
+    "id": "sample_0383",
+    "category": "boundary_conditions",
+    "label": "non_terminating",
+    "length": "short",
+    "logical_loc": 7,
+    "domain": "thermodynamic state simulations",
+    "ast_nodes": 68,
+    "cfg_nodes": 41,
+    "cyclomatic_complexity": 3,
+    "loop_count": 1,
+    "function_count": 1,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2002.75
+}

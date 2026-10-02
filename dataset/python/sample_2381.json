@@ -1,0 +1,15 @@
+{
+    "id": "sample_2381",
+    "category": "floating_point_precision",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 37,
+    "domain": "decentralized ledger consensus mechanics",
+    "ast_nodes": 227,
+    "cfg_nodes": 135,
+    "cyclomatic_complexity": 5,
+    "loop_count": 2,
+    "function_count": 8,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2002.99
+}

@@ -1,0 +1,18 @@
+<?php
+function process_signal($data, $threshold) {
+    $result = array();
+    foreach ($data as $x) {
+        if (abs($x) > $threshold) {
+            $result[] = round($x, 3);
+        } else {
+            $result[] = 0.0;
+        }
+    }
+    return $result;
+}
+
+$data = array(0.123456, -0.789012, 0.000123, 0.999999);
+$threshold = 0.5;
+$processed_data = process_signal($data, $threshold);
+print_r($processed_data);
+?>

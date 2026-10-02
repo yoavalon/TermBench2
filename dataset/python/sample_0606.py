@@ -1,0 +1,8 @@
+def calc_altitude(target, current, rate, max_alt):
+    if current >= target or current + rate > max_alt:
+        return current
+    return calc_altitude(target, current + rate, rate, max_alt)
+
+def main():
+    print(calc_altitude(30000, 0, 1000, 40000))
+main()

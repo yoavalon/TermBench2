@@ -1,0 +1,442 @@
+=============================================
+EVALUATION RESULTS FOR LANGUAGE: JAVA
+=============================================
+
+--- OVERALL TEST METRICS ---
+{
+    "overall_loss": 0.43928664922714233,
+    "overall_accuracy": 0.795,
+    "overall_precision": 0.7976918363807471,
+    "overall_recall": 0.795,
+    "overall_f1": 0.7938998025998497,
+    "overall_mAP": 0.7377496382054993,
+    "overall_auroc_prob": 0.8805300869565218,
+    "overall_runtime": 5.1429,
+    "overall_samples_per_second": 233.33,
+    "overall_steps_per_second": 58.332,
+    "epoch": 1.0
+}
+
+--- METRICS PER CATEGORY ---
+[DATA_MUTATIONS]:
+{
+    "cat_data_mutations_loss": 0.4364248216152191,
+    "cat_data_mutations_accuracy": 0.7857142857142857,
+    "cat_data_mutations_precision": 0.786900974599808,
+    "cat_data_mutations_recall": 0.7857142857142857,
+    "cat_data_mutations_f1": 0.7859609182318346,
+    "cat_data_mutations_mAP": 0.7528096604495457,
+    "cat_data_mutations_auroc_prob": 0.8835937500000001,
+    "cat_data_mutations_runtime": 1.015,
+    "cat_data_mutations_samples_per_second": 234.472,
+    "cat_data_mutations_steps_per_second": 59.111,
+    "epoch": 1.0
+}
+
+[FLOATING_POINT_PRECISION]:
+{
+    "cat_floating_point_precision_loss": 0.38390079140663147,
+    "cat_floating_point_precision_accuracy": 0.8333333333333334,
+    "cat_floating_point_precision_precision": 0.8377777777777777,
+    "cat_floating_point_precision_recall": 0.8333333333333334,
+    "cat_floating_point_precision_f1": 0.8326822916666666,
+    "cat_floating_point_precision_mAP": 0.7682162534435263,
+    "cat_floating_point_precision_auroc_prob": 0.9057920688936731,
+    "cat_floating_point_precision_runtime": 1.0236,
+    "cat_floating_point_precision_samples_per_second": 234.478,
+    "cat_floating_point_precision_steps_per_second": 58.619,
+    "epoch": 1.0
+}
+
+[RECURSION]:
+{
+    "cat_recursion_loss": 0.5626916289329529,
+    "cat_recursion_accuracy": 0.7083333333333334,
+    "cat_recursion_precision": 0.7182513839140346,
+    "cat_recursion_recall": 0.7083333333333334,
+    "cat_recursion_f1": 0.6977284460505937,
+    "cat_recursion_mAP": 0.6680996714129244,
+    "cat_recursion_auroc_prob": 0.8251262626262627,
+    "cat_recursion_runtime": 1.0282,
+    "cat_recursion_samples_per_second": 233.426,
+    "cat_recursion_steps_per_second": 58.356,
+    "epoch": 1.0
+}
+
+[BOUNDARY_CONDITIONS]:
+{
+    "cat_boundary_conditions_loss": 0.45046910643577576,
+    "cat_boundary_conditions_accuracy": 0.7903225806451613,
+    "cat_boundary_conditions_precision": 0.7907338856572067,
+    "cat_boundary_conditions_recall": 0.7903225806451613,
+    "cat_boundary_conditions_f1": 0.7903225806451613,
+    "cat_boundary_conditions_mAP": 0.7215465068452906,
+    "cat_boundary_conditions_auroc_prob": 0.8874902419984387,
+    "cat_boundary_conditions_runtime": 1.0501,
+    "cat_boundary_conditions_samples_per_second": 236.169,
+    "cat_boundary_conditions_steps_per_second": 59.042,
+    "epoch": 1.0
+}
+
+[MATHEMATICAL_SEQUENCES]:
+{
+    "cat_mathematical_sequences_loss": 0.3606255352497101,
+    "cat_mathematical_sequences_accuracy": 0.8589743589743589,
+    "cat_mathematical_sequences_precision": 0.8678352075743976,
+    "cat_mathematical_sequences_recall": 0.8589743589743589,
+    "cat_mathematical_sequences_f1": 0.8575331064805237,
+    "cat_mathematical_sequences_mAP": 0.7987204827107164,
+    "cat_mathematical_sequences_auroc_prob": 0.9149956088992973,
+    "cat_mathematical_sequences_runtime": 0.9866,
+    "cat_mathematical_sequences_samples_per_second": 237.184,
+    "cat_mathematical_sequences_steps_per_second": 59.803,
+    "epoch": 1.0
+}
+
+--- METRICS PER DOMAIN ---
+[FLIGHT TRAJECTORY AND CRUISE ALTITUDE PLANNING]:
+{
+    "dom_flight_trajectory_and_cruise_altitude_planning_loss": 0.41248995065689087,
+    "dom_flight_trajectory_and_cruise_altitude_planning_accuracy": 0.8488372093023255,
+    "dom_flight_trajectory_and_cruise_altitude_planning_precision": 0.8707326154198649,
+    "dom_flight_trajectory_and_cruise_altitude_planning_recall": 0.8488372093023255,
+    "dom_flight_trajectory_and_cruise_altitude_planning_f1": 0.844346374440092,
+    "dom_flight_trajectory_and_cruise_altitude_planning_mAP": 0.8071173013033478,
+    "dom_flight_trajectory_and_cruise_altitude_planning_auroc_prob": 0.9094380796508456,
+    "dom_flight_trajectory_and_cruise_altitude_planning_runtime": 0.355,
+    "dom_flight_trajectory_and_cruise_altitude_planning_samples_per_second": 242.246,
+    "dom_flight_trajectory_and_cruise_altitude_planning_steps_per_second": 61.97,
+    "epoch": 1.0
+}
+
+[DOCUMENT PARSING AND LEXICAL TOKENIZATION]:
+{
+    "dom_document_parsing_and_lexical_tokenization_loss": 0.4984491765499115,
+    "dom_document_parsing_and_lexical_tokenization_accuracy": 0.7317073170731707,
+    "dom_document_parsing_and_lexical_tokenization_precision": 0.7274859287054409,
+    "dom_document_parsing_and_lexical_tokenization_recall": 0.7317073170731707,
+    "dom_document_parsing_and_lexical_tokenization_f1": 0.7254232984750146,
+    "dom_document_parsing_and_lexical_tokenization_mAP": 0.7275609756097561,
+    "dom_document_parsing_and_lexical_tokenization_auroc_prob": 0.8225,
+    "dom_document_parsing_and_lexical_tokenization_runtime": 0.1802,
+    "dom_document_parsing_and_lexical_tokenization_samples_per_second": 227.466,
+    "dom_document_parsing_and_lexical_tokenization_steps_per_second": 61.028,
+    "epoch": 1.0
+}
+
+[BIOSTATISTICAL P-VALUE PERMUTATIONS]:
+{
+    "dom_biostatistical_p-value_permutations_loss": 0.7308087944984436,
+    "dom_biostatistical_p-value_permutations_accuracy": 0.6607142857142857,
+    "dom_biostatistical_p-value_permutations_precision": 0.7978723404255319,
+    "dom_biostatistical_p-value_permutations_recall": 0.6607142857142857,
+    "dom_biostatistical_p-value_permutations_f1": 0.6165765765765766,
+    "dom_biostatistical_p-value_permutations_mAP": 0.5957446808510638,
+    "dom_biostatistical_p-value_permutations_auroc_prob": 0.7806122448979591,
+    "dom_biostatistical_p-value_permutations_runtime": 0.239,
+    "dom_biostatistical_p-value_permutations_samples_per_second": 234.343,
+    "dom_biostatistical_p-value_permutations_steps_per_second": 58.586,
+    "epoch": 1.0
+}
+
+[STATE MACHINES FOR NETWORK CONNECTIONS]:
+{
+    "dom_state_machines_for_network_connections_loss": 0.40822574496269226,
+    "dom_state_machines_for_network_connections_accuracy": 0.7951807228915663,
+    "dom_state_machines_for_network_connections_precision": 0.8032291107750842,
+    "dom_state_machines_for_network_connections_recall": 0.7951807228915663,
+    "dom_state_machines_for_network_connections_f1": 0.788849073107418,
+    "dom_state_machines_for_network_connections_mAP": 0.6884946378922283,
+    "dom_state_machines_for_network_connections_auroc_prob": 0.9071428571428571,
+    "dom_state_machines_for_network_connections_runtime": 0.3427,
+    "dom_state_machines_for_network_connections_samples_per_second": 242.187,
+    "dom_state_machines_for_network_connections_steps_per_second": 61.276,
+    "epoch": 1.0
+}
+
+[THERMODYNAMIC STATE SIMULATIONS]:
+{
+    "dom_thermodynamic_state_simulations_loss": 0.32428237795829773,
+    "dom_thermodynamic_state_simulations_accuracy": 0.86,
+    "dom_thermodynamic_state_simulations_precision": 0.8620320855614975,
+    "dom_thermodynamic_state_simulations_recall": 0.86,
+    "dom_thermodynamic_state_simulations_f1": 0.8576576576576577,
+    "dom_thermodynamic_state_simulations_mAP": 0.7617647058823529,
+    "dom_thermodynamic_state_simulations_auroc_prob": 0.9299999999999999,
+    "dom_thermodynamic_state_simulations_runtime": 0.2122,
+    "dom_thermodynamic_state_simulations_samples_per_second": 235.576,
+    "dom_thermodynamic_state_simulations_steps_per_second": 61.25,
+    "epoch": 1.0
+}
+
+[FINANCIAL MONTE CARLO OPTION PRICING MODELS]:
+{
+    "dom_financial_Monte_Carlo_option_pricing_models_loss": 0.35608813166618347,
+    "dom_financial_Monte_Carlo_option_pricing_models_accuracy": 0.8813559322033898,
+    "dom_financial_Monte_Carlo_option_pricing_models_precision": 0.8986581920903954,
+    "dom_financial_Monte_Carlo_option_pricing_models_recall": 0.8813559322033898,
+    "dom_financial_Monte_Carlo_option_pricing_models_f1": 0.8717025985198221,
+    "dom_financial_Monte_Carlo_option_pricing_models_mAP": 0.8541666666666666,
+    "dom_financial_Monte_Carlo_option_pricing_models_auroc_prob": 0.8455284552845529,
+    "dom_financial_Monte_Carlo_option_pricing_models_runtime": 0.2548,
+    "dom_financial_Monte_Carlo_option_pricing_models_samples_per_second": 231.552,
+    "dom_financial_Monte_Carlo_option_pricing_models_steps_per_second": 58.869,
+    "epoch": 1.0
+}
+
+[GRAPH TRAVERSAL AND SHORTEST PATH ROUTING]:
+{
+    "dom_graph_traversal_and_shortest_path_routing_loss": 0.4829672873020172,
+    "dom_graph_traversal_and_shortest_path_routing_accuracy": 0.7659574468085106,
+    "dom_graph_traversal_and_shortest_path_routing_precision": 0.8219241443108235,
+    "dom_graph_traversal_and_shortest_path_routing_recall": 0.7659574468085106,
+    "dom_graph_traversal_and_shortest_path_routing_f1": 0.682831221838314,
+    "dom_graph_traversal_and_shortest_path_routing_mAP": 0.7608695652173914,
+    "dom_graph_traversal_and_shortest_path_routing_auroc_prob": 0.7833333333333333,
+    "dom_graph_traversal_and_shortest_path_routing_runtime": 0.1794,
+    "dom_graph_traversal_and_shortest_path_routing_samples_per_second": 261.937,
+    "dom_graph_traversal_and_shortest_path_routing_steps_per_second": 66.877,
+    "epoch": 1.0
+}
+
+[REINFORCEMENT LEARNING REWARD DECAY]:
+{
+    "dom_reinforcement_learning_reward_decay_loss": 0.21073080599308014,
+    "dom_reinforcement_learning_reward_decay_accuracy": 0.9090909090909091,
+    "dom_reinforcement_learning_reward_decay_precision": 0.9090909090909091,
+    "dom_reinforcement_learning_reward_decay_recall": 0.9090909090909091,
+    "dom_reinforcement_learning_reward_decay_f1": 0.9090909090909091,
+    "dom_reinforcement_learning_reward_decay_mAP": 0.8975255513717053,
+    "dom_reinforcement_learning_reward_decay_auroc_prob": 0.982905982905983,
+    "dom_reinforcement_learning_reward_decay_runtime": 0.1771,
+    "dom_reinforcement_learning_reward_decay_samples_per_second": 248.474,
+    "dom_reinforcement_learning_reward_decay_steps_per_second": 62.119,
+    "epoch": 1.0
+}
+
+[CRYPTOGRAPHIC HASHING AND CIPHER SIMULATIONS]:
+{
+    "dom_cryptographic_hashing_and_cipher_simulations_loss": 0.3327561318874359,
+    "dom_cryptographic_hashing_and_cipher_simulations_accuracy": 0.8311688311688312,
+    "dom_cryptographic_hashing_and_cipher_simulations_precision": 0.8314256365103823,
+    "dom_cryptographic_hashing_and_cipher_simulations_recall": 0.8311688311688312,
+    "dom_cryptographic_hashing_and_cipher_simulations_f1": 0.8227502646107296,
+    "dom_cryptographic_hashing_and_cipher_simulations_mAP": 0.8215555630809868,
+    "dom_cryptographic_hashing_and_cipher_simulations_auroc_prob": 0.8930769230769231,
+    "dom_cryptographic_hashing_and_cipher_simulations_runtime": 0.3307,
+    "dom_cryptographic_hashing_and_cipher_simulations_samples_per_second": 232.814,
+    "dom_cryptographic_hashing_and_cipher_simulations_steps_per_second": 60.471,
+    "epoch": 1.0
+}
+
+[3D COORDINATE GEOMETRY TRANSFORMATIONS]:
+{
+    "dom_3D_coordinate_geometry_transformations_loss": 0.5695500373840332,
+    "dom_3D_coordinate_geometry_transformations_accuracy": 0.6904761904761905,
+    "dom_3D_coordinate_geometry_transformations_precision": 0.7072225373416524,
+    "dom_3D_coordinate_geometry_transformations_recall": 0.6904761904761905,
+    "dom_3D_coordinate_geometry_transformations_f1": 0.6925925925925925,
+    "dom_3D_coordinate_geometry_transformations_mAP": 0.556312292358804,
+    "dom_3D_coordinate_geometry_transformations_auroc_prob": 0.7877551020408163,
+    "dom_3D_coordinate_geometry_transformations_runtime": 0.3402,
+    "dom_3D_coordinate_geometry_transformations_samples_per_second": 246.912,
+    "dom_3D_coordinate_geometry_transformations_steps_per_second": 61.728,
+    "epoch": 1.0
+}
+
+[FLUID DYNAMICS VIA CELLULAR AUTOMATA]:
+{
+    "dom_fluid_dynamics_via_cellular_automata_loss": 0.6505353450775146,
+    "dom_fluid_dynamics_via_cellular_automata_accuracy": 0.6404494382022472,
+    "dom_fluid_dynamics_via_cellular_automata_precision": 0.7361084286704308,
+    "dom_fluid_dynamics_via_cellular_automata_recall": 0.6404494382022472,
+    "dom_fluid_dynamics_via_cellular_automata_f1": 0.6564671519091702,
+    "dom_fluid_dynamics_via_cellular_automata_mAP": 0.4018638908721957,
+    "dom_fluid_dynamics_via_cellular_automata_auroc_prob": 0.7271062271062272,
+    "dom_fluid_dynamics_via_cellular_automata_runtime": 0.3769,
+    "dom_fluid_dynamics_via_cellular_automata_samples_per_second": 236.168,
+    "dom_fluid_dynamics_via_cellular_automata_steps_per_second": 61.032,
+    "epoch": 1.0
+}
+
+[GENOMIC SEQUENCE ALIGNMENT ALGORITHMS]:
+{
+    "dom_genomic_sequence_alignment_algorithms_loss": 0.41588693857192993,
+    "dom_genomic_sequence_alignment_algorithms_accuracy": 0.7924528301886793,
+    "dom_genomic_sequence_alignment_algorithms_precision": 0.790140584535701,
+    "dom_genomic_sequence_alignment_algorithms_recall": 0.7924528301886793,
+    "dom_genomic_sequence_alignment_algorithms_f1": 0.7885506507327671,
+    "dom_genomic_sequence_alignment_algorithms_mAP": 0.7833841560256655,
+    "dom_genomic_sequence_alignment_algorithms_auroc_prob": 0.8606060606060606,
+    "dom_genomic_sequence_alignment_algorithms_runtime": 0.2299,
+    "dom_genomic_sequence_alignment_algorithms_samples_per_second": 230.572,
+    "dom_genomic_sequence_alignment_algorithms_steps_per_second": 60.906,
+    "epoch": 1.0
+}
+
+[SUPPLY CHAIN LOGISTICS OPTIMIZATION]:
+{
+    "dom_supply_chain_logistics_optimization_loss": 0.34408995509147644,
+    "dom_supply_chain_logistics_optimization_accuracy": 0.8235294117647058,
+    "dom_supply_chain_logistics_optimization_precision": 0.8255665902724725,
+    "dom_supply_chain_logistics_optimization_recall": 0.8235294117647058,
+    "dom_supply_chain_logistics_optimization_f1": 0.8238357843137255,
+    "dom_supply_chain_logistics_optimization_mAP": 0.7979218714512832,
+    "dom_supply_chain_logistics_optimization_auroc_prob": 0.9202266782911945,
+    "dom_supply_chain_logistics_optimization_runtime": 0.2934,
+    "dom_supply_chain_logistics_optimization_samples_per_second": 231.777,
+    "dom_supply_chain_logistics_optimization_steps_per_second": 57.944,
+    "epoch": 1.0
+}
+
+[NEURAL NETWORK FORWARD PASS MATRIX OPERATIONS]:
+{
+    "dom_neural_network_forward_pass_matrix_operations_loss": 0.3019212484359741,
+    "dom_neural_network_forward_pass_matrix_operations_accuracy": 0.9032258064516129,
+    "dom_neural_network_forward_pass_matrix_operations_precision": 0.9143920595533499,
+    "dom_neural_network_forward_pass_matrix_operations_recall": 0.9032258064516129,
+    "dom_neural_network_forward_pass_matrix_operations_f1": 0.8950220286625816,
+    "dom_neural_network_forward_pass_matrix_operations_mAP": 0.8846153846153846,
+    "dom_neural_network_forward_pass_matrix_operations_auroc_prob": 0.8586956521739131,
+    "dom_neural_network_forward_pass_matrix_operations_runtime": 0.1319,
+    "dom_neural_network_forward_pass_matrix_operations_samples_per_second": 235.076,
+    "dom_neural_network_forward_pass_matrix_operations_steps_per_second": 60.665,
+    "epoch": 1.0
+}
+
+[ABSTRACT SYNTAX TREE SEMANTIC LINTING]:
+{
+    "dom_abstract_syntax_tree_semantic_linting_loss": 0.3958989679813385,
+    "dom_abstract_syntax_tree_semantic_linting_accuracy": 0.7818181818181819,
+    "dom_abstract_syntax_tree_semantic_linting_precision": 0.7859393939393939,
+    "dom_abstract_syntax_tree_semantic_linting_recall": 0.7818181818181819,
+    "dom_abstract_syntax_tree_semantic_linting_f1": 0.7828445747800586,
+    "dom_abstract_syntax_tree_semantic_linting_mAP": 0.778314393939394,
+    "dom_abstract_syntax_tree_semantic_linting_auroc_prob": 0.889945652173913,
+    "dom_abstract_syntax_tree_semantic_linting_runtime": 0.2383,
+    "dom_abstract_syntax_tree_semantic_linting_samples_per_second": 230.781,
+    "dom_abstract_syntax_tree_semantic_linting_steps_per_second": 58.744,
+    "epoch": 1.0
+}
+
+[PARTICLE SWARM OPTIMIZATION ALGORITHMS]:
+{
+    "dom_particle_swarm_optimization_algorithms_loss": 0.45172548294067383,
+    "dom_particle_swarm_optimization_algorithms_accuracy": 0.78125,
+    "dom_particle_swarm_optimization_algorithms_precision": 0.7786796536796536,
+    "dom_particle_swarm_optimization_algorithms_recall": 0.78125,
+    "dom_particle_swarm_optimization_algorithms_f1": 0.7791622481442206,
+    "dom_particle_swarm_optimization_algorithms_mAP": 0.7818452380952381,
+    "dom_particle_swarm_optimization_algorithms_auroc_prob": 0.8458333333333333,
+    "dom_particle_swarm_optimization_algorithms_runtime": 0.1393,
+    "dom_particle_swarm_optimization_algorithms_samples_per_second": 229.769,
+    "dom_particle_swarm_optimization_algorithms_steps_per_second": 57.442,
+    "epoch": 1.0
+}
+
+[NATURAL LANGUAGE PROCESSING VECTORIZATION]:
+{
+    "dom_natural_language_processing_vectorization_loss": 0.49559950828552246,
+    "dom_natural_language_processing_vectorization_accuracy": 0.782608695652174,
+    "dom_natural_language_processing_vectorization_precision": 0.811518915866742,
+    "dom_natural_language_processing_vectorization_recall": 0.782608695652174,
+    "dom_natural_language_processing_vectorization_f1": 0.7676484338475923,
+    "dom_natural_language_processing_vectorization_mAP": 0.7370830457786979,
+    "dom_natural_language_processing_vectorization_auroc_prob": 0.8284600389863548,
+    "dom_natural_language_processing_vectorization_runtime": 0.2083,
+    "dom_natural_language_processing_vectorization_samples_per_second": 220.861,
+    "dom_natural_language_processing_vectorization_steps_per_second": 57.616,
+    "epoch": 1.0
+}
+
+[DECENTRALIZED LEDGER CONSENSUS MECHANICS]:
+{
+    "dom_decentralized_ledger_consensus_mechanics_loss": 0.3808320462703705,
+    "dom_decentralized_ledger_consensus_mechanics_accuracy": 0.8255813953488372,
+    "dom_decentralized_ledger_consensus_mechanics_precision": 0.828212143533621,
+    "dom_decentralized_ledger_consensus_mechanics_recall": 0.8255813953488372,
+    "dom_decentralized_ledger_consensus_mechanics_f1": 0.824012665681987,
+    "dom_decentralized_ledger_consensus_mechanics_mAP": 0.7505173804763408,
+    "dom_decentralized_ledger_consensus_mechanics_auroc_prob": 0.9148936170212766,
+    "dom_decentralized_ledger_consensus_mechanics_runtime": 0.3644,
+    "dom_decentralized_ledger_consensus_mechanics_samples_per_second": 235.998,
+    "dom_decentralized_ledger_consensus_mechanics_steps_per_second": 60.372,
+    "epoch": 1.0
+}
+
+[TEMPORAL FRAME SEQUENCE TRACKING]:
+{
+    "dom_temporal_frame_sequence_tracking_loss": 0.48519882559776306,
+    "dom_temporal_frame_sequence_tracking_accuracy": 0.8450704225352113,
+    "dom_temporal_frame_sequence_tracking_precision": 0.8503861880963198,
+    "dom_temporal_frame_sequence_tracking_recall": 0.8450704225352113,
+    "dom_temporal_frame_sequence_tracking_f1": 0.8462093779750178,
+    "dom_temporal_frame_sequence_tracking_mAP": 0.719932498215097,
+    "dom_temporal_frame_sequence_tracking_auroc_prob": 0.9024086378737541,
+    "dom_temporal_frame_sequence_tracking_runtime": 0.2873,
+    "dom_temporal_frame_sequence_tracking_samples_per_second": 247.158,
+    "dom_temporal_frame_sequence_tracking_steps_per_second": 62.66,
+    "epoch": 1.0
+}
+
+[DIGITAL SIGNAL PROCESSING]:
+{
+    "dom_digital_signal_processing_loss": 0.35340628027915955,
+    "dom_digital_signal_processing_accuracy": 0.8809523809523809,
+    "dom_digital_signal_processing_precision": 0.9014778325123152,
+    "dom_digital_signal_processing_recall": 0.8809523809523809,
+    "dom_digital_signal_processing_f1": 0.8769672202417182,
+    "dom_digital_signal_processing_mAP": 0.8275862068965517,
+    "dom_digital_signal_processing_auroc_prob": 0.9305555555555556,
+    "dom_digital_signal_processing_runtime": 0.1715,
+    "dom_digital_signal_processing_samples_per_second": 244.859,
+    "dom_digital_signal_processing_steps_per_second": 64.13,
+    "epoch": 1.0
+}
+
+--- METRICS PER LENGTH ---
+[LONG]:
+{
+    "len_long_loss": 0.6721065044403076,
+    "len_long_accuracy": 0.6683937823834197,
+    "len_long_precision": 0.6690909743696362,
+    "len_long_recall": 0.6683937823834197,
+    "len_long_f1": 0.6685809794417518,
+    "len_long_mAP": 0.6360791929479469,
+    "len_long_auroc_prob": 0.7003418665374572,
+    "len_long_runtime": 1.5947,
+    "len_long_samples_per_second": 242.057,
+    "len_long_steps_per_second": 60.828,
+    "epoch": 1.0
+}
+
+[MEDIUM]:
+{
+    "len_medium_loss": 0.4001263380050659,
+    "len_medium_accuracy": 0.825,
+    "len_medium_precision": 0.8599696119682094,
+    "len_medium_recall": 0.825,
+    "len_medium_f1": 0.8185266918873476,
+    "len_medium_mAP": 0.7540306261963359,
+    "len_medium_auroc_prob": 0.9144921718185468,
+    "len_medium_runtime": 1.7168,
+    "len_medium_samples_per_second": 232.99,
+    "len_medium_steps_per_second": 58.247,
+    "epoch": 1.0
+}
+
+[SHORT]:
+{
+    "len_short_loss": 0.2600051164627075,
+    "len_short_accuracy": 0.8840579710144928,
+    "len_short_precision": 0.8845681072588589,
+    "len_short_recall": 0.8840579710144928,
+    "len_short_f1": 0.8839821210889881,
+    "len_short_mAP": 0.8368631324355297,
+    "len_short_auroc_prob": 0.9579598506069095,
+    "len_short_runtime": 1.5827,
+    "len_short_samples_per_second": 261.579,
+    "len_short_steps_per_second": 65.711,
+    "epoch": 1.0
+}
+

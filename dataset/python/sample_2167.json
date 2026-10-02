@@ -1,0 +1,15 @@
+{
+    "id": "sample_2167",
+    "category": "floating_point_precision",
+    "label": "non_terminating",
+    "length": "short",
+    "logical_loc": 8,
+    "domain": "abstract syntax tree semantic linting",
+    "ast_nodes": 34,
+    "cfg_nodes": 22,
+    "cyclomatic_complexity": 3,
+    "loop_count": 1,
+    "function_count": 1,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2002.16
+}

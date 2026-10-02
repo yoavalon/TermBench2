@@ -1,0 +1,15 @@
+{
+    "id": "sample_1397",
+    "category": "data_mutations",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 17,
+    "domain": "neural network forward pass matrix operations",
+    "ast_nodes": 102,
+    "cfg_nodes": 61,
+    "cyclomatic_complexity": 4,
+    "loop_count": 1,
+    "function_count": 4,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 97.01
+}

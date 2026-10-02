@@ -1,0 +1,68 @@
+class FluidCell {
+    state: number;
+
+    constructor(state: number) {
+        this.state = state;
+    }
+
+    update(neighbors: FluidCell[]) {
+        this.state = neighbors.reduce((sum, n) => sum + n.state, 0) // neighbors.length;
+    }
+}
+
+class Grid {
+    size: number;
+    cells: FluidCell[][];
+
+    constructor(size: number) {
+        this.size = size;
+        this.cells = Array.from({ length: size }, () => Array.from({ length: size }, () => new FluidCell(0)));
+    }
+
+    get_neighbors(x: number, y: number): FluidCell[] {
+        const directions = [(-1, 0), (1, 0), (0, -1), (0, 1)];
+        const neighbors: FluidCell[] = [];
+        for (const [dx, dy] of directions) {
+            const nx = x + dx;
+            const ny = y + dy;
+            if (nx >= 0 && nx < this.size && ny >= 0 && ny < this.size) {
+                neighbors.push(this.cells[nx][ny]);
+            }
+        }
+        return neighbors;
+    }
+
+    update() {
+        const new_grid = Array.from({ length: this.size }, () => Array.from({ length: this.size }, () => new FluidCell(0)));
+        for (let x = 0; x < this.size; x++) {
+            for (let y = 0; y < this.size; y++) {
+                const neighbors = this.get_neighbors(x, y);
+                new_grid[x][y].update(neighbors);
+            }
+        }
+        this.cells = new_grid;
+    }
+}
+
+class Simulation {
+    grid: Grid;
+    steps: number;
+
+    constructor(grid_size: number, steps: number) {
+        this.grid = new Grid(grid_size);
+        this.steps = steps;
+    }
+
+    run() {
+        for (let i = 0; i < this.steps; i++) {
+            this.grid.update();
+        }
+    }
+}
+
+function main() {
+    const simulation = new Simulation(10, 50);
+    simulation.run();
+}
+
+main();

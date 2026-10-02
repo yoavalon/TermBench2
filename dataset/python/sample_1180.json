@@ -1,0 +1,15 @@
+{
+    "id": "sample_1180",
+    "category": "recursion",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 47,
+    "domain": "financial Monte Carlo option pricing models",
+    "ast_nodes": 506,
+    "cfg_nodes": 285,
+    "cyclomatic_complexity": 1,
+    "loop_count": 0,
+    "function_count": 3,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 7.22
+}

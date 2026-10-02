@@ -1,0 +1,15 @@
+{
+    "id": "sample_2560",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 19,
+    "domain": "thermodynamic state simulations",
+    "ast_nodes": 101,
+    "cfg_nodes": 63,
+    "cyclomatic_complexity": 3,
+    "loop_count": 2,
+    "function_count": 3,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.57
+}

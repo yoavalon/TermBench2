@@ -1,0 +1,15 @@
+{
+    "id": "sample_2675",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 40,
+    "domain": "biostatistical p-value permutations",
+    "ast_nodes": 247,
+    "cfg_nodes": 142,
+    "cyclomatic_complexity": 5,
+    "loop_count": 2,
+    "function_count": 8,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.88
+}

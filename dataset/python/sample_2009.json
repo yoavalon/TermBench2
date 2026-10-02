@@ -1,0 +1,15 @@
+{
+    "id": "sample_2009",
+    "category": "floating_point_precision",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 39,
+    "domain": "state machines for network connections",
+    "ast_nodes": 288,
+    "cfg_nodes": 176,
+    "cyclomatic_complexity": 17,
+    "loop_count": 1,
+    "function_count": 7,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.08
+}

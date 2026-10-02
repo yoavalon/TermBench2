@@ -1,0 +1,15 @@
+{
+    "id": "sample_1739",
+    "category": "data_mutations",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 43,
+    "domain": "thermodynamic state simulations",
+    "ast_nodes": 265,
+    "cfg_nodes": 153,
+    "cyclomatic_complexity": 6,
+    "loop_count": 2,
+    "function_count": 9,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.38
+}

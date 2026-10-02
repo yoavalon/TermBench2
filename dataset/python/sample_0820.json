@@ -1,0 +1,15 @@
+{
+    "id": "sample_0820",
+    "category": "recursion",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 39,
+    "domain": "natural language processing vectorization",
+    "ast_nodes": 298,
+    "cfg_nodes": 176,
+    "cyclomatic_complexity": 7,
+    "loop_count": 2,
+    "function_count": 6,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.54
+}

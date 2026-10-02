@@ -1,0 +1,11 @@
+function simulate_state() {
+    let x = 0.1, y = 0.2, z = 0.3;
+    while (true) {
+        [x, y, z] = [y, z, x + y + z];
+        if (x > 1) {
+            [x, y, z] = [0.1, 0.2, 0.3];
+        }
+    }
+}
+
+simulate_state();

@@ -1,0 +1,10 @@
+def hash_cipher(data, depth)
+  if depth == 0
+    return data
+  else
+    return hash_cipher(hash(data), depth - 1)
+  end
+end
+
+result = hash_cipher('example_data', 3)
+puts result

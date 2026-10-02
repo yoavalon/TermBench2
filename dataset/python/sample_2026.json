@@ -1,0 +1,15 @@
+{
+    "id": "sample_2026",
+    "category": "floating_point_precision",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 57,
+    "domain": "particle swarm optimization algorithms",
+    "ast_nodes": 556,
+    "cfg_nodes": 329,
+    "cyclomatic_complexity": 12,
+    "loop_count": 8,
+    "function_count": 8,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.49
+}

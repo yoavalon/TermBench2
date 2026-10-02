@@ -1,0 +1,15 @@
+{
+    "id": "sample_1472",
+    "category": "data_mutations",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 41,
+    "domain": "financial Monte Carlo option pricing models",
+    "ast_nodes": 337,
+    "cfg_nodes": 194,
+    "cyclomatic_complexity": 6,
+    "loop_count": 3,
+    "function_count": 5,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.87
+}

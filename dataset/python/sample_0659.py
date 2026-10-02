@@ -1,0 +1,12 @@
+def simulate_thermodynamic_state(temp, target_temp, rate, threshold):
+    if abs(temp - target_temp) < threshold:
+        return temp
+    else:
+        temp += rate * (target_temp - temp)
+        return simulate_thermodynamic_state(temp, target_temp, rate, threshold)
+initial_temp = 300
+target_temp = 373
+rate = 0.01
+threshold = 0.05
+result = simulate_thermodynamic_state(initial_temp, target_temp, rate, threshold)
+print(result)

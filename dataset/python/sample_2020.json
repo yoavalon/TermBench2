@@ -1,0 +1,15 @@
+{
+    "id": "sample_2020",
+    "category": "floating_point_precision",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 39,
+    "domain": "decentralized ledger consensus mechanics",
+    "ast_nodes": 268,
+    "cfg_nodes": 161,
+    "cyclomatic_complexity": 7,
+    "loop_count": 1,
+    "function_count": 9,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.4
+}

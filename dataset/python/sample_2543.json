@@ -1,0 +1,15 @@
+{
+    "id": "sample_2543",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 15,
+    "domain": "temporal frame sequence tracking",
+    "ast_nodes": 96,
+    "cfg_nodes": 58,
+    "cyclomatic_complexity": 3,
+    "loop_count": 2,
+    "function_count": 3,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.63
+}

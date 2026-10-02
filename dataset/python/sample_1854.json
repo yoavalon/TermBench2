@@ -1,0 +1,15 @@
+{
+    "id": "sample_1854",
+    "category": "floating_point_precision",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 11,
+    "domain": "natural language processing vectorization",
+    "ast_nodes": 63,
+    "cfg_nodes": 38,
+    "cyclomatic_complexity": 1,
+    "loop_count": 0,
+    "function_count": 2,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 430.92
+}

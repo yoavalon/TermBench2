@@ -1,0 +1,77 @@
+import * as random from 'mathjs';
+import * as math from 'mathjs';
+
+class DataMutator {
+    data: number[];
+
+    constructor(data: number[]) {
+        this.data = data;
+    }
+
+    mutate_data(): number[] {
+        const mutated_data = this.data.map(x => this._mutate_value(x));
+        return mutated_data;
+    }
+
+    _mutate_value(value: number): number {
+        return value + random.gauss(0, 1);
+    }
+}
+
+class PValueCalculator {
+    data1: number[];
+    data2: number[];
+
+    constructor(data1: number[], data2: number[]) {
+        this.data1 = data1;
+        this.data2 = data2;
+    }
+
+    calculate_p_value(): number {
+        const diff = this._mean_diff(this.data1, this.data2);
+        const combined = this.data1.concat(this.data2);
+        const mean_combined = combined.reduce((a, b) => a + b, 0) / combined.length;
+        const std_dev = Math.sqrt(combined.reduce((a, b) => a + Math.pow(b - mean_combined, 2), 0) / combined.length);
+        const z_score = diff / (std_dev / Math.sqrt(this.data1.length + this.data2.length));
+        const p_value = this._calculate_p_from_z(z_score);
+        return p_value;
+    }
+
+    _mean_diff(list1: number[], list2: number[]): number {
+        return (list1.reduce((a, b) => a + b, 0) / list1.length) - (list2.reduce((a, b) => a + b, 0) / list2.length);
+    }
+
+    _calculate_p_from_z(z: number): number {
+        return 1 - math.erf(Math.abs(z) / Math.sqrt(2));
+    }
+}
+
+class InfiniteLoop {
+    data_mutator: DataMutator;
+    p_value_calculator: PValueCalculator;
+
+    constructor(data_mutator: DataMutator, p_value_calculator: PValueCalculator) {
+        this.data_mutator = data_mutator;
+        this.p_value_calculator = p_value_calculator;
+    }
+
+    run(): void {
+        while (true) {
+            const data1 = this.data_mutator.mutate_data();
+            const data2 = this.data_mutator.mutate_data();
+            const p_value = this.p_value_calculator.calculate_p_value();
+            console.log(`P-value: ${p_value}`);
+        }
+    }
+}
+
+function main(): void {
+    const initial_data1 = Array.from({ length: 100 }, () => random.random());
+    const initial_data2 = Array.from({ length: 100 }, () => random.random());
+    const data_mutator = new DataMutator(initial_data1.concat(initial_data2));
+    const p_value_calculator = new PValueCalculator(initial_data1, initial_data2);
+    const infinite_loop = new InfiniteLoop(data_mutator, p_value_calculator);
+    infinite_loop.run();
+}
+
+main();

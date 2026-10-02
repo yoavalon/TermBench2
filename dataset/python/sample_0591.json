@@ -1,0 +1,15 @@
+{
+    "id": "sample_0591",
+    "category": "boundary_conditions",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 47,
+    "domain": "supply chain logistics optimization",
+    "ast_nodes": 297,
+    "cfg_nodes": 167,
+    "cyclomatic_complexity": 8,
+    "loop_count": 1,
+    "function_count": 10,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.74
+}

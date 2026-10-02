@@ -1,0 +1,15 @@
+{
+    "id": "sample_2486",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 8,
+    "domain": "supply chain logistics optimization",
+    "ast_nodes": 62,
+    "cfg_nodes": 37,
+    "cyclomatic_complexity": 3,
+    "loop_count": 1,
+    "function_count": 1,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.22
+}

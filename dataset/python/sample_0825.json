@@ -1,0 +1,15 @@
+{
+    "id": "sample_0825",
+    "category": "recursion",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 46,
+    "domain": "particle swarm optimization algorithms",
+    "ast_nodes": 421,
+    "cfg_nodes": 238,
+    "cyclomatic_complexity": 9,
+    "loop_count": 4,
+    "function_count": 9,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.31
+}

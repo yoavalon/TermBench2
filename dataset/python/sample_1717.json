@@ -1,0 +1,15 @@
+{
+    "id": "sample_1717",
+    "category": "data_mutations",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 48,
+    "domain": "abstract syntax tree semantic linting",
+    "ast_nodes": 277,
+    "cfg_nodes": 170,
+    "cyclomatic_complexity": 14,
+    "loop_count": 4,
+    "function_count": 9,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.68
+}

@@ -1,0 +1,15 @@
+{
+    "id": "sample_0921",
+    "category": "recursion",
+    "label": "non_terminating",
+    "length": "short",
+    "logical_loc": 12,
+    "domain": "supply chain logistics optimization",
+    "ast_nodes": 88,
+    "cfg_nodes": 54,
+    "cyclomatic_complexity": 2,
+    "loop_count": 0,
+    "function_count": 2,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 4.0
+}

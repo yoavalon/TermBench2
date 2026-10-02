@@ -1,0 +1,54 @@
+class SequenceGenerator {
+    constructor(start, end, step) {
+        this.start = start;
+        this.end = end;
+        this.step = step;
+        this.current = start;
+    }
+
+    generate() {
+        const results = [];
+        while (this.current < this.end) {
+            results.push(this.current);
+            this.current += this.step;
+        }
+        return results;
+    }
+}
+
+class RewardCalculator {
+    constructor(initial_reward, decay_rate) {
+        this.initial_reward = initial_reward;
+        this.decay_rate = decay_rate;
+        this.current_reward = initial_reward;
+    }
+
+    calculate(step) {
+        this.current_reward = this.initial_reward * Math.pow(this.decay_rate, step);
+        return this.current_reward;
+    }
+}
+
+function simulate(sequence_generator, reward_calculator, max_steps) {
+    let steps = 0;
+    let total_reward = 0;
+    for (let value of sequence_generator.generate()) {
+        if (steps >= max_steps) {
+            break;
+        }
+        let reward = reward_calculator.calculate(steps);
+        total_reward += reward;
+        steps += 1;
+    }
+    return total_reward;
+}
+
+function main() {
+    let seq_gen = new SequenceGenerator(0, 10, 1);
+    let reward_calc = new RewardCalculator(1.0, 0.9);
+    let max_steps = 5;
+    let result = simulate(seq_gen, reward_calc, max_steps);
+    console.log(result);
+}
+
+main();

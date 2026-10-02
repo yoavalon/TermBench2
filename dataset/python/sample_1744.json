@@ -1,0 +1,15 @@
+{
+    "id": "sample_1744",
+    "category": "data_mutations",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 37,
+    "domain": "particle swarm optimization algorithms",
+    "ast_nodes": 388,
+    "cfg_nodes": 217,
+    "cyclomatic_complexity": 8,
+    "loop_count": 4,
+    "function_count": 6,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.28
+}

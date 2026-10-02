@@ -1,0 +1,15 @@
+{
+    "id": "sample_1259",
+    "category": "data_mutations",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 10,
+    "domain": "state machines for network connections",
+    "ast_nodes": 62,
+    "cfg_nodes": 42,
+    "cyclomatic_complexity": 3,
+    "loop_count": 1,
+    "function_count": 1,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.7
+}

@@ -1,0 +1,15 @@
+{
+    "id": "sample_2862",
+    "category": "mathematical_sequences",
+    "label": "non_terminating",
+    "length": "medium",
+    "logical_loc": 23,
+    "domain": "digital signal processing",
+    "ast_nodes": 177,
+    "cfg_nodes": 105,
+    "cyclomatic_complexity": 4,
+    "loop_count": 3,
+    "function_count": 3,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.46
+}

@@ -1,0 +1,15 @@
+{
+    "id": "sample_2057",
+    "category": "floating_point_precision",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 31,
+    "domain": "graph traversal and shortest path routing",
+    "ast_nodes": 407,
+    "cfg_nodes": 265,
+    "cyclomatic_complexity": 9,
+    "loop_count": 3,
+    "function_count": 5,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.73
+}

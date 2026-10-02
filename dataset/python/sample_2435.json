@@ -1,0 +1,15 @@
+{
+    "id": "sample_2435",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 7,
+    "domain": "decentralized ledger consensus mechanics",
+    "ast_nodes": 65,
+    "cfg_nodes": 38,
+    "cyclomatic_complexity": 3,
+    "loop_count": 1,
+    "function_count": 1,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.1
+}

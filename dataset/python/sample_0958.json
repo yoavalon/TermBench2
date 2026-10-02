@@ -1,0 +1,15 @@
+{
+    "id": "sample_0958",
+    "category": "recursion",
+    "label": "non_terminating",
+    "length": "short",
+    "logical_loc": 5,
+    "domain": "cryptographic hashing and cipher simulations",
+    "ast_nodes": 44,
+    "cfg_nodes": 26,
+    "cyclomatic_complexity": 1,
+    "loop_count": 0,
+    "function_count": 2,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 5.57
+}

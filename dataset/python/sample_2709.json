@@ -1,0 +1,15 @@
+{
+    "id": "sample_2709",
+    "category": "mathematical_sequences",
+    "label": "non_terminating",
+    "length": "short",
+    "logical_loc": 11,
+    "domain": "financial Monte Carlo option pricing models",
+    "ast_nodes": 74,
+    "cfg_nodes": 47,
+    "cyclomatic_complexity": 2,
+    "loop_count": 1,
+    "function_count": 1,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.36
+}

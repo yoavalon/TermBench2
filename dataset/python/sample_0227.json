@@ -1,0 +1,15 @@
+{
+    "id": "sample_0227",
+    "category": "boundary_conditions",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 36,
+    "domain": "document parsing and lexical tokenization",
+    "ast_nodes": 226,
+    "cfg_nodes": 129,
+    "cyclomatic_complexity": 4,
+    "loop_count": 1,
+    "function_count": 8,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.0
+}

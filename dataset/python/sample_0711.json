@@ -1,0 +1,15 @@
+{
+    "id": "sample_0711",
+    "category": "recursion",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 20,
+    "domain": "supply chain logistics optimization",
+    "ast_nodes": 202,
+    "cfg_nodes": 125,
+    "cyclomatic_complexity": 5,
+    "loop_count": 2,
+    "function_count": 3,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.78
+}

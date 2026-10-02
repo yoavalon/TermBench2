@@ -1,0 +1,15 @@
+{
+    "id": "sample_0491",
+    "category": "boundary_conditions",
+    "label": "non_terminating",
+    "length": "medium",
+    "logical_loc": 19,
+    "domain": "temporal frame sequence tracking",
+    "ast_nodes": 102,
+    "cfg_nodes": 64,
+    "cyclomatic_complexity": 4,
+    "loop_count": 2,
+    "function_count": 3,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2002.9
+}

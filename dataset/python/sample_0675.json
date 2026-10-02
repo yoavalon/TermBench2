@@ -1,0 +1,15 @@
+{
+    "id": "sample_0675",
+    "category": "recursion",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 9,
+    "domain": "flight trajectory and cruise altitude planning",
+    "ast_nodes": 62,
+    "cfg_nodes": 36,
+    "cyclomatic_complexity": 2,
+    "loop_count": 0,
+    "function_count": 2,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.3
+}

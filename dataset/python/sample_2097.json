@@ -1,0 +1,15 @@
+{
+    "id": "sample_2097",
+    "category": "floating_point_precision",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 40,
+    "domain": "flight trajectory and cruise altitude planning",
+    "ast_nodes": 235,
+    "cfg_nodes": 136,
+    "cyclomatic_complexity": 5,
+    "loop_count": 1,
+    "function_count": 8,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.75
+}

@@ -1,0 +1,15 @@
+{
+    "id": "sample_0448",
+    "category": "boundary_conditions",
+    "label": "non_terminating",
+    "length": "medium",
+    "logical_loc": 17,
+    "domain": "cryptographic hashing and cipher simulations",
+    "ast_nodes": 92,
+    "cfg_nodes": 57,
+    "cyclomatic_complexity": 3,
+    "loop_count": 2,
+    "function_count": 3,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.5
+}

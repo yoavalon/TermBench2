@@ -1,0 +1,36 @@
+php
+<?php
+
+function dfs($graph, $node, &$visited, &$path) {
+    if (!in_array($node, $visited)) {
+        $visited[] = $node;
+        $path[] = $node;
+        foreach ($graph[$node] as $neighbor) {
+            dfs($graph, $neighbor, $visited, $path);
+        }
+    }
+    return $path;
+}
+
+function shortest_path($graph, $start, $end) {
+    $visited = [];
+    $path = dfs($graph, $start, $visited, []);
+    return in_array($end, $path) ? $path : [];
+}
+
+function main() {
+    $graph = [
+        'A' => ['B', 'C'],
+        'B' => ['D', 'E'],
+        'C' => ['F'],
+        'D' => [],
+        'E' => ['F'],
+        'F' => []
+    ];
+    $start = 'A';
+    $end = 'F';
+    $result = shortest_path($graph, $start, $end);
+    print_r($result);
+}
+
+main();

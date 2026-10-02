@@ -1,0 +1,15 @@
+{
+    "id": "sample_1630",
+    "category": "data_mutations",
+    "label": "non_terminating",
+    "length": "medium",
+    "logical_loc": 27,
+    "domain": "state machines for network connections",
+    "ast_nodes": 131,
+    "cfg_nodes": 90,
+    "cyclomatic_complexity": 14,
+    "loop_count": 2,
+    "function_count": 2,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.34
+}

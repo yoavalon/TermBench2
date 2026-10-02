@@ -1,0 +1,15 @@
+{
+    "id": "sample_2624",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 41,
+    "domain": "abstract syntax tree semantic linting",
+    "ast_nodes": 275,
+    "cfg_nodes": 165,
+    "cyclomatic_complexity": 5,
+    "loop_count": 2,
+    "function_count": 8,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.23
+}

@@ -1,0 +1,15 @@
+{
+    "id": "sample_0860",
+    "category": "recursion",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 31,
+    "domain": "3D coordinate geometry transformations",
+    "ast_nodes": 412,
+    "cfg_nodes": 243,
+    "cyclomatic_complexity": 3,
+    "loop_count": 0,
+    "function_count": 6,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.01
+}

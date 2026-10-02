@@ -1,0 +1,15 @@
+{
+    "id": "sample_2168",
+    "category": "floating_point_precision",
+    "label": "non_terminating",
+    "length": "short",
+    "logical_loc": 9,
+    "domain": "thermodynamic state simulations",
+    "ast_nodes": 48,
+    "cfg_nodes": 30,
+    "cyclomatic_complexity": 2,
+    "loop_count": 1,
+    "function_count": 1,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2002.46
+}

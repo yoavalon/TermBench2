@@ -1,0 +1,15 @@
+{
+    "id": "sample_1927",
+    "category": "floating_point_precision",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 21,
+    "domain": "genomic sequence alignment algorithms",
+    "ast_nodes": 266,
+    "cfg_nodes": 161,
+    "cyclomatic_complexity": 4,
+    "loop_count": 3,
+    "function_count": 3,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.17
+}

@@ -1,0 +1,15 @@
+{
+    "id": "sample_0613",
+    "category": "recursion",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 8,
+    "domain": "temporal frame sequence tracking",
+    "ast_nodes": 70,
+    "cfg_nodes": 42,
+    "cyclomatic_complexity": 2,
+    "loop_count": 0,
+    "function_count": 2,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.15
+}

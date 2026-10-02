@@ -1,0 +1,13 @@
+public class sample_0003 {
+    public static void main(String[] args) {
+        double reward = 1.0;
+        double decay_rate = 0.95;
+        double threshold = 0.01;
+        int steps = 0;
+        while (reward > threshold) {
+            reward *= decay_rate;
+            steps += 1;
+        }
+        System.out.println(steps);
+    }
+}

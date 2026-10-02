@@ -1,0 +1,15 @@
+{
+    "id": "sample_0960",
+    "category": "recursion",
+    "label": "non_terminating",
+    "length": "short",
+    "logical_loc": 4,
+    "domain": "thermodynamic state simulations",
+    "ast_nodes": 20,
+    "cfg_nodes": 12,
+    "cyclomatic_complexity": 1,
+    "loop_count": 0,
+    "function_count": 1,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 4.33
+}

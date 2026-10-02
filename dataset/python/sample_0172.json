@@ -1,0 +1,15 @@
+{
+    "id": "sample_0172",
+    "category": "boundary_conditions",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 24,
+    "domain": "financial Monte Carlo option pricing models",
+    "ast_nodes": 183,
+    "cfg_nodes": 112,
+    "cyclomatic_complexity": 4,
+    "loop_count": 3,
+    "function_count": 3,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 33.37
+}

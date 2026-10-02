@@ -1,0 +1,25 @@
+cpp
+#include <iostream>
+#include <vector>
+
+void cellular_automata() {
+    std::vector<std::vector<int>> grid(10, std::vector<int>(10, 0));
+    while (true) {
+        for (int i = 1; i < 9; ++i) {
+            for (int j = 1; j < 9; ++j) {
+                grid[i][j] = (grid[i - 1][j] + grid[i + 1][j] + grid[i][j - 1] + grid[i][j + 1]) % 2;
+            }
+        }
+        for (int i = 0; i < 10; ++i) {
+            grid[i][0] = grid[i][9];
+            grid[i][9] = grid[i][0];
+            grid[0][i] = grid[9][i];
+            grid[9][i] = grid[0][i];
+        }
+    }
+}
+
+int main() {
+    cellular_automata();
+    return 0;
+}

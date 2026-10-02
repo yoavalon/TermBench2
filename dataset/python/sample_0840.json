@@ -1,0 +1,15 @@
+{
+    "id": "sample_0840",
+    "category": "recursion",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 40,
+    "domain": "neural network forward pass matrix operations",
+    "ast_nodes": 307,
+    "cfg_nodes": 176,
+    "cyclomatic_complexity": 3,
+    "loop_count": 1,
+    "function_count": 10,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 134.25
+}

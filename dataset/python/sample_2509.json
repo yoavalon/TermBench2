@@ -1,0 +1,15 @@
+{
+    "id": "sample_2509",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 23,
+    "domain": "genomic sequence alignment algorithms",
+    "ast_nodes": 172,
+    "cfg_nodes": 102,
+    "cyclomatic_complexity": 5,
+    "loop_count": 2,
+    "function_count": 3,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.04
+}

@@ -1,0 +1,15 @@
+{
+    "id": "sample_1323",
+    "category": "data_mutations",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 15,
+    "domain": "digital signal processing",
+    "ast_nodes": 117,
+    "cfg_nodes": 70,
+    "cyclomatic_complexity": 1,
+    "loop_count": 0,
+    "function_count": 3,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 141.24
+}

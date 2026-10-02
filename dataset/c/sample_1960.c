@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+double calculate_altitude(double speed, double rate) {
+    return speed * rate;
+}
+
+double adjust_altitude(double current, double target) {
+    double difference = target - current;
+    double correction = difference * 0.1;
+    return current + correction;
+}
+
+int main() {
+    double initial_speed = 500.5;
+    double rate = 0.8;
+    double target_altitude = 45000.0;
+    double current_altitude = 0.0;
+    for (int _ = 0; _ < 100; _++) {
+        current_altitude = calculate_altitude(initial_speed, rate);
+        current_altitude = adjust_altitude(current_altitude, target_altitude);
+        if (current_altitude - target_altitude < 100 && target_altitude - current_altitude < 100) {
+            break;
+        }
+    }
+    printf("%f\n", current_altitude);
+    return 0;
+}

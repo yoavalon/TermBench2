@@ -1,0 +1,15 @@
+{
+    "id": "sample_1487",
+    "category": "data_mutations",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 48,
+    "domain": "graph traversal and shortest path routing",
+    "ast_nodes": 396,
+    "cfg_nodes": 232,
+    "cyclomatic_complexity": 10,
+    "loop_count": 4,
+    "function_count": 8,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.9
+}

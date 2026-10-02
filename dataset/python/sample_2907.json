@@ -1,0 +1,15 @@
+{
+    "id": "sample_2907",
+    "category": "mathematical_sequences",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 40,
+    "domain": "graph traversal and shortest path routing",
+    "ast_nodes": 367,
+    "cfg_nodes": 217,
+    "cyclomatic_complexity": 10,
+    "loop_count": 5,
+    "function_count": 6,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.19
+}

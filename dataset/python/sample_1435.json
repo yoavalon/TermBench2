@@ -1,0 +1,15 @@
+{
+    "id": "sample_1435",
+    "category": "data_mutations",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 32,
+    "domain": "natural language processing vectorization",
+    "ast_nodes": 227,
+    "cfg_nodes": 132,
+    "cyclomatic_complexity": 8,
+    "loop_count": 4,
+    "function_count": 7,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 149.01
+}

@@ -1,0 +1,15 @@
+{
+    "id": "sample_0561",
+    "category": "boundary_conditions",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 34,
+    "domain": "decentralized ledger consensus mechanics",
+    "ast_nodes": 190,
+    "cfg_nodes": 112,
+    "cyclomatic_complexity": 7,
+    "loop_count": 3,
+    "function_count": 5,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.56
+}

@@ -1,0 +1,15 @@
+{
+    "id": "sample_2971",
+    "category": "mathematical_sequences",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 31,
+    "domain": "temporal frame sequence tracking",
+    "ast_nodes": 178,
+    "cfg_nodes": 102,
+    "cyclomatic_complexity": 4,
+    "loop_count": 3,
+    "function_count": 9,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2002.11
+}

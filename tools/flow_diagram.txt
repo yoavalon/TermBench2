@@ -1,0 +1,49 @@
+sequenceDiagram
+    autonumber
+    
+    box rgba(238, 242, 255, 0.4) Phase 1: Generative Verification
+    participant Gen as Dataset Generator
+    participant LLM as Qwen2.5 LLM
+    participant Sandbox as Execution Sandbox
+    end
+    
+    box rgba(240, 253, 244, 0.4) Artifact Storage
+    participant FS as Local File System
+    end
+    
+    box rgba(253, 244, 255, 0.4) Phase 2 & 3: Downstream Pipelines
+    participant Trans as Polyglot Translator
+    participant Model as Fine-Tuning Engine
+    end
+
+    %% Phase 1
+    Note over Gen, Sandbox: 1. Dataset Generation (termination_dataset_generation.py)
+    loop Per Target Behavior & Length
+        Gen->>LLM: Prompt domain & structural constraints
+        LLM-->>Gen: Return raw Python snippet
+        Gen->>Gen: Extract AST skeleton & reject collisions
+        Gen->>Sandbox: Dispatch for untrusted execution
+        Sandbox-->>Gen: Return status (Timeout, RecursionError, Success)
+        Gen->>FS: Commit clean .py file & metadata .json
+    end
+
+    %% Phase 2
+    Note over FS, Trans: 2. Cross-Language Corpus (termination_dataset_translation.py)
+    loop Per Target Language (Java, C++, etc.)
+        Trans->>FS: Load source .py and target behavior label
+        FS-->>Trans: 
+        Trans->>LLM: Prompt behavior-preserving translation
+        LLM-->>Trans: Return formatted polyglot code
+        Trans->>Trans: Enforce language formatting (e.g., Java class names)
+        Trans->>FS: Commit target language file
+    enda
+
+    %% Phase 3
+    Note over FS, Model: 3. Predictive Evaluation (train_prediction.py)
+    Model->>FS: Ingest total Python dataset
+    FS-->>Model: 
+    Model->>Model: Parse labels & perform 60/40 Train/Test split
+    Model->>Model: Tokenize via Hugging Face DataCollator
+    Model->>Model: Fine-tune Transformer (e.g., CodeBERT)
+    Model->>Model: Compute AUROC, F1, mAP across stratifications
+    Model-->>Model: Output final metrics per domain/category/length

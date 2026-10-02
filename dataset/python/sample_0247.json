@@ -1,0 +1,15 @@
+{
+    "id": "sample_0247",
+    "category": "boundary_conditions",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 35,
+    "domain": "abstract syntax tree semantic linting",
+    "ast_nodes": 210,
+    "cfg_nodes": 124,
+    "cyclomatic_complexity": 4,
+    "loop_count": 1,
+    "function_count": 8,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.06
+}

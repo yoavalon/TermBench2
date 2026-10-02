@@ -1,0 +1,15 @@
+{
+    "id": "sample_0066",
+    "category": "boundary_conditions",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 14,
+    "domain": "biostatistical p-value permutations",
+    "ast_nodes": 106,
+    "cfg_nodes": 64,
+    "cyclomatic_complexity": 2,
+    "loop_count": 1,
+    "function_count": 1,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 351.02
+}

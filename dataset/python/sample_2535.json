@@ -1,0 +1,15 @@
+{
+    "id": "sample_2535",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 29,
+    "domain": "financial Monte Carlo option pricing models",
+    "ast_nodes": 291,
+    "cfg_nodes": 165,
+    "cyclomatic_complexity": 2,
+    "loop_count": 1,
+    "function_count": 4,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 161.92
+}

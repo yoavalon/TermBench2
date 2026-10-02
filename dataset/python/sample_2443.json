@@ -1,0 +1,15 @@
+{
+    "id": "sample_2443",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 9,
+    "domain": "reinforcement learning reward decay",
+    "ast_nodes": 54,
+    "cfg_nodes": 33,
+    "cyclomatic_complexity": 3,
+    "loop_count": 1,
+    "function_count": 1,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.39
+}

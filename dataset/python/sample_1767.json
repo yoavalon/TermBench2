@@ -1,0 +1,15 @@
+{
+    "id": "sample_1767",
+    "category": "data_mutations",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 31,
+    "domain": "fluid dynamics via cellular automata",
+    "ast_nodes": 349,
+    "cfg_nodes": 203,
+    "cyclomatic_complexity": 14,
+    "loop_count": 5,
+    "function_count": 5,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.02
+}

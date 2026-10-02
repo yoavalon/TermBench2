@@ -1,0 +1,15 @@
+{
+    "id": "sample_1382",
+    "category": "data_mutations",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 17,
+    "domain": "biostatistical p-value permutations",
+    "ast_nodes": 129,
+    "cfg_nodes": 73,
+    "cyclomatic_complexity": 2,
+    "loop_count": 0,
+    "function_count": 3,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 78.48
+}

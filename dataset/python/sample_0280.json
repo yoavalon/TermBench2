@@ -1,0 +1,15 @@
+{
+    "id": "sample_0280",
+    "category": "boundary_conditions",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 32,
+    "domain": "fluid dynamics via cellular automata",
+    "ast_nodes": 317,
+    "cfg_nodes": 187,
+    "cyclomatic_complexity": 9,
+    "loop_count": 5,
+    "function_count": 5,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.57
+}

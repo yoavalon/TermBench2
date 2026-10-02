@@ -1,0 +1,15 @@
+{
+    "id": "sample_2407",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 8,
+    "domain": "flight trajectory and cruise altitude planning",
+    "ast_nodes": 48,
+    "cfg_nodes": 28,
+    "cyclomatic_complexity": 2,
+    "loop_count": 1,
+    "function_count": 1,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.01
+}

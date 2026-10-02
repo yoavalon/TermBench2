@@ -1,0 +1,15 @@
+{
+    "id": "sample_0206",
+    "category": "boundary_conditions",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 47,
+    "domain": "genomic sequence alignment algorithms",
+    "ast_nodes": 616,
+    "cfg_nodes": 362,
+    "cyclomatic_complexity": 13,
+    "loop_count": 5,
+    "function_count": 5,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.02
+}

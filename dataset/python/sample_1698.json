@@ -1,0 +1,15 @@
+{
+    "id": "sample_1698",
+    "category": "data_mutations",
+    "label": "non_terminating",
+    "length": "medium",
+    "logical_loc": 16,
+    "domain": "supply chain logistics optimization",
+    "ast_nodes": 91,
+    "cfg_nodes": 59,
+    "cyclomatic_complexity": 5,
+    "loop_count": 4,
+    "function_count": 3,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2002.17
+}

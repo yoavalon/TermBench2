@@ -1,0 +1,15 @@
+{
+    "id": "sample_2066",
+    "category": "floating_point_precision",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 33,
+    "domain": "document parsing and lexical tokenization",
+    "ast_nodes": 192,
+    "cfg_nodes": 110,
+    "cyclomatic_complexity": 2,
+    "loop_count": 0,
+    "function_count": 9,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.84
+}

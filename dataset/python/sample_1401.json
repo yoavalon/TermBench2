@@ -1,0 +1,15 @@
+{
+    "id": "sample_1401",
+    "category": "data_mutations",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 38,
+    "domain": "3D coordinate geometry transformations",
+    "ast_nodes": 321,
+    "cfg_nodes": 195,
+    "cyclomatic_complexity": 4,
+    "loop_count": 2,
+    "function_count": 6,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.35
+}

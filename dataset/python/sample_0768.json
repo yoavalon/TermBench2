@@ -1,0 +1,15 @@
+{
+    "id": "sample_0768",
+    "category": "recursion",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 15,
+    "domain": "genomic sequence alignment algorithms",
+    "ast_nodes": 116,
+    "cfg_nodes": 73,
+    "cyclomatic_complexity": 4,
+    "loop_count": 0,
+    "function_count": 2,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.65
+}

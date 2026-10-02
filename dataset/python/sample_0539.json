@@ -1,0 +1,15 @@
+{
+    "id": "sample_0539",
+    "category": "boundary_conditions",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 32,
+    "domain": "digital signal processing",
+    "ast_nodes": 203,
+    "cfg_nodes": 123,
+    "cyclomatic_complexity": 8,
+    "loop_count": 5,
+    "function_count": 4,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2002.09
+}

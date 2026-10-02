@@ -1,0 +1,15 @@
+{
+    "id": "sample_0637",
+    "category": "recursion",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 5,
+    "domain": "reinforcement learning reward decay",
+    "ast_nodes": 45,
+    "cfg_nodes": 25,
+    "cyclomatic_complexity": 2,
+    "loop_count": 0,
+    "function_count": 1,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.27
+}

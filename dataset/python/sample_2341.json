@@ -1,0 +1,15 @@
+{
+    "id": "sample_2341",
+    "category": "floating_point_precision",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 34,
+    "domain": "supply chain logistics optimization",
+    "ast_nodes": 240,
+    "cfg_nodes": 137,
+    "cyclomatic_complexity": 3,
+    "loop_count": 1,
+    "function_count": 9,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.37
+}

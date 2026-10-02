@@ -1,0 +1,15 @@
+{
+    "id": "sample_2621",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 33,
+    "domain": "digital signal processing",
+    "ast_nodes": 230,
+    "cfg_nodes": 138,
+    "cyclomatic_complexity": 6,
+    "loop_count": 3,
+    "function_count": 4,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.19
+}

@@ -1,0 +1,15 @@
+{
+    "id": "sample_0844",
+    "category": "recursion",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 48,
+    "domain": "graph traversal and shortest path routing",
+    "ast_nodes": 460,
+    "cfg_nodes": 288,
+    "cyclomatic_complexity": 10,
+    "loop_count": 4,
+    "function_count": 5,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.12
+}

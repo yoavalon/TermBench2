@@ -1,0 +1,15 @@
+{
+    "id": "sample_2016",
+    "category": "floating_point_precision",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 42,
+    "domain": "3D coordinate geometry transformations",
+    "ast_nodes": 599,
+    "cfg_nodes": 320,
+    "cyclomatic_complexity": 2,
+    "loop_count": 0,
+    "function_count": 8,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.73
+}

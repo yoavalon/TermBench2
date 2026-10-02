@@ -1,0 +1,15 @@
+{
+    "id": "sample_1586",
+    "category": "data_mutations",
+    "label": "non_terminating",
+    "length": "short",
+    "logical_loc": 7,
+    "domain": "cryptographic hashing and cipher simulations",
+    "ast_nodes": 37,
+    "cfg_nodes": 24,
+    "cyclomatic_complexity": 2,
+    "loop_count": 1,
+    "function_count": 1,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2002.23
+}

@@ -1,0 +1,15 @@
+{
+    "id": "sample_1568",
+    "category": "data_mutations",
+    "label": "non_terminating",
+    "length": "short",
+    "logical_loc": 6,
+    "domain": "temporal frame sequence tracking",
+    "ast_nodes": 42,
+    "cfg_nodes": 27,
+    "cyclomatic_complexity": 3,
+    "loop_count": 2,
+    "function_count": 1,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.64
+}

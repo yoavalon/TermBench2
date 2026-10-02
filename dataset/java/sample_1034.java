@@ -1,0 +1,21 @@
+public class sample_1034 {
+    static int simulate_state(int a, int b) {
+        if (a == b) {
+            return a;
+        } else if (a < b) {
+            return simulate_state(a + 1, b);
+        } else {
+            return simulate_state(a - 1, b);
+        }
+    }
+
+    public static void main(String[] args) {
+        int x = 1;
+        int y = 10;
+        while (true) {
+            int result = simulate_state(x, y);
+            x = result;
+            y = result + 1;
+        }
+    }
+}

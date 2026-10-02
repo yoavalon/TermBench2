@@ -1,0 +1,15 @@
+{
+    "id": "sample_2472",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 13,
+    "domain": "cryptographic hashing and cipher simulations",
+    "ast_nodes": 74,
+    "cfg_nodes": 46,
+    "cyclomatic_complexity": 3,
+    "loop_count": 2,
+    "function_count": 2,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.04
+}

@@ -1,0 +1,15 @@
+{
+    "id": "sample_2995",
+    "category": "mathematical_sequences",
+    "label": "non_terminating",
+    "length": "long",
+    "logical_loc": 33,
+    "domain": "state machines for network connections",
+    "ast_nodes": 190,
+    "cfg_nodes": 118,
+    "cyclomatic_complexity": 9,
+    "loop_count": 2,
+    "function_count": 6,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.16
+}

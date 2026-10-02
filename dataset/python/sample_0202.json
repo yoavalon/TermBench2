@@ -1,0 +1,15 @@
+{
+    "id": "sample_0202",
+    "category": "boundary_conditions",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 37,
+    "domain": "natural language processing vectorization",
+    "ast_nodes": 278,
+    "cfg_nodes": 163,
+    "cyclomatic_complexity": 6,
+    "loop_count": 3,
+    "function_count": 7,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 141.22
+}

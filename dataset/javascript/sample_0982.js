@@ -1,0 +1,4 @@
+function transform_coordinates(x, y, z, a, b, c) {
+    return transform_coordinates(x + a, y + b, z + c, a, b, c);
+}
+transform_coordinates(0, 0, 0, 1, 1, 1);

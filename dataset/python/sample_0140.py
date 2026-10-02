@@ -1,0 +1,23 @@
+def simulate_state(temp, pressure, volume):
+    internal_energy = temp * volume * pressure
+    entropy = internal_energy / (temp * pressure)
+    return (internal_energy, entropy)
+
+def check_boundary_conditions(temp, pressure, volume):
+    max_temp = 1000
+    min_pressure = 1
+    max_volume = 1000
+    if temp > max_temp or pressure < min_pressure or volume > max_volume:
+        return False
+    return True
+
+def main():
+    temp = 500
+    pressure = 2
+    volume = 500
+    if check_boundary_conditions(temp, pressure, volume):
+        internal_energy, entropy = simulate_state(temp, pressure, volume)
+        print('Simulation Complete:', internal_energy, entropy)
+    else:
+        print('Boundary conditions exceeded')
+main()

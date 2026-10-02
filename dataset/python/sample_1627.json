@@ -1,0 +1,15 @@
+{
+    "id": "sample_1627",
+    "category": "data_mutations",
+    "label": "non_terminating",
+    "length": "medium",
+    "logical_loc": 15,
+    "domain": "document parsing and lexical tokenization",
+    "ast_nodes": 88,
+    "cfg_nodes": 55,
+    "cyclomatic_complexity": 3,
+    "loop_count": 2,
+    "function_count": 3,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.13
+}

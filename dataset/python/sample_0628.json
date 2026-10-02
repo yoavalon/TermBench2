@@ -1,0 +1,15 @@
+{
+    "id": "sample_0628",
+    "category": "recursion",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 13,
+    "domain": "document parsing and lexical tokenization",
+    "ast_nodes": 86,
+    "cfg_nodes": 54,
+    "cyclomatic_complexity": 3,
+    "loop_count": 0,
+    "function_count": 2,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.12
+}

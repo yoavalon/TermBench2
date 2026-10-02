@@ -1,0 +1,15 @@
+{
+    "id": "sample_0249",
+    "category": "boundary_conditions",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 39,
+    "domain": "flight trajectory and cruise altitude planning",
+    "ast_nodes": 270,
+    "cfg_nodes": 150,
+    "cyclomatic_complexity": 6,
+    "loop_count": 1,
+    "function_count": 7,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.16
+}

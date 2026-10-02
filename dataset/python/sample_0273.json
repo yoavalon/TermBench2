@@ -1,0 +1,15 @@
+{
+    "id": "sample_0273",
+    "category": "boundary_conditions",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 39,
+    "domain": "state machines for network connections",
+    "ast_nodes": 216,
+    "cfg_nodes": 137,
+    "cyclomatic_complexity": 12,
+    "loop_count": 1,
+    "function_count": 6,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.74
+}

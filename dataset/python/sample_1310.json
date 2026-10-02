@@ -1,0 +1,15 @@
+{
+    "id": "sample_1310",
+    "category": "data_mutations",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 21,
+    "domain": "reinforcement learning reward decay",
+    "ast_nodes": 132,
+    "cfg_nodes": 80,
+    "cyclomatic_complexity": 4,
+    "loop_count": 2,
+    "function_count": 3,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 154.37
+}

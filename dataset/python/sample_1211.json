@@ -1,0 +1,15 @@
+{
+    "id": "sample_1211",
+    "category": "data_mutations",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 11,
+    "domain": "flight trajectory and cruise altitude planning",
+    "ast_nodes": 48,
+    "cfg_nodes": 31,
+    "cyclomatic_complexity": 3,
+    "loop_count": 1,
+    "function_count": 1,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.24
+}

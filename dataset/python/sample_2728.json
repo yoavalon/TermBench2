@@ -1,0 +1,15 @@
+{
+    "id": "sample_2728",
+    "category": "mathematical_sequences",
+    "label": "non_terminating",
+    "length": "short",
+    "logical_loc": 11,
+    "domain": "particle swarm optimization algorithms",
+    "ast_nodes": 84,
+    "cfg_nodes": 55,
+    "cyclomatic_complexity": 6,
+    "loop_count": 3,
+    "function_count": 1,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.61
+}

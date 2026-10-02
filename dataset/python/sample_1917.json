@@ -1,0 +1,15 @@
+{
+    "id": "sample_1917",
+    "category": "floating_point_precision",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 18,
+    "domain": "biostatistical p-value permutations",
+    "ast_nodes": 180,
+    "cfg_nodes": 105,
+    "cyclomatic_complexity": 3,
+    "loop_count": 1,
+    "function_count": 2,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 112.1
+}

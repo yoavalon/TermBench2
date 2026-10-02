@@ -1,0 +1,15 @@
+{
+    "id": "sample_0157",
+    "category": "boundary_conditions",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 24,
+    "domain": "graph traversal and shortest path routing",
+    "ast_nodes": 193,
+    "cfg_nodes": 117,
+    "cyclomatic_complexity": 7,
+    "loop_count": 2,
+    "function_count": 3,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.73
+}

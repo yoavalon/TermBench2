@@ -1,0 +1,15 @@
+{
+    "id": "sample_2554",
+    "category": "mathematical_sequences",
+    "label": "terminating",
+    "length": "medium",
+    "logical_loc": 29,
+    "domain": "particle swarm optimization algorithms",
+    "ast_nodes": 417,
+    "cfg_nodes": 228,
+    "cyclomatic_complexity": 5,
+    "loop_count": 3,
+    "function_count": 6,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 13.25
+}

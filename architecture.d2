@@ -1,0 +1,95 @@
+direction: right
+
+classes: {
+  agent: {
+    shape: rectangle
+    style: {
+      fill: "#D5E8D4"
+      stroke: "#82B366"
+      border-radius: 8
+    }
+  }
+  db: {
+    shape: cylinder
+    style: {
+      fill: "#DAE8FC"
+      stroke: "#6C8EBF"
+    }
+  }
+  process: {
+    shape: rectangle
+    style: {
+      fill: "#FFF2CC"
+      stroke: "#D6B656"
+      border-radius: 8
+    }
+  }
+  spacer: {
+    label: "- - - - - - - - -"
+    style: {
+      opacity: 0
+      stroke: transparent
+      fill: transparent
+    }
+  }
+}
+
+Generator: {
+  label: "Generator & Translator Pipeline"
+  style: {
+    stroke-dash: 3
+    stroke: "#82B366"
+    fill: transparent
+  }
+  grid-rows: 3
+  grid-columns: 3
+
+  gen_agent: Code Generator Agent\n(AST Sockets, Length Filters) {class: agent}
+  spacer1: {class: spacer}
+  json_meta: JSON Metadata\n(Metrics, AST Hash, Domain) {class: db}
+  
+  py_source: Python Source Database\n(Flat Root Storage) {class: db}
+  spacer2: {class: spacer}
+  val_agent: Validation Agent\n(Static Analysis & Halting Check) {class: agent}
+  
+  trans_agent: Translator Agent\n(Polyglot LLM Engine) {class: agent}
+  spacer3: {class: spacer}
+  poly_source: Multi-Language Dataset\n(C, C++, Java, Rust, etc.) {class: db}
+
+  gen_agent -> py_source: raw python code
+  gen_agent -> json_meta: metadata
+  py_source -> trans_agent: code translation pass
+  py_source -> val_agent: execution sandbox check
+  json_meta -> val_agent: label & metadata check
+  trans_agent -> poly_source: target language outputs
+  poly_source -> val_agent: translation syntax check
+}
+
+Trainer: {
+  label: "Transformer Learning & Evaluation"
+  style: {
+    stroke-dash: 3
+    stroke: "#D6B656"
+    fill: transparent
+  }
+  grid-rows: 4
+  grid-columns: 1
+
+  loader: Dataset Loader\n(Cross-Folder Pairing) {class: process}
+  tokenizer: Subword Tokenizer\n(Padding & Max Length) {class: process}
+  transformer: Sequence Classification Model\n(Backbone Encoder & Head) {class: process}
+  eval_engine: Stratified Evaluation Engine\n(Category, Domain, Length Metrics) {class: process}
+
+  loader -> tokenizer -> transformer -> eval_engine
+}
+
+# Forces the Trainer block to stay positioned strictly to the right of Generator invisibly
+Generator -> Trainer {
+  style: {
+    opacity: 0
+  }
+}
+
+# Cross-box data connections
+Generator.json_meta -> Trainer.loader: metadata bindings
+Generator.poly_source -> Trainer.loader: source code files

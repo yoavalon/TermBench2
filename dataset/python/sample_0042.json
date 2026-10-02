@@ -1,0 +1,15 @@
+{
+    "id": "sample_0042",
+    "category": "boundary_conditions",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 10,
+    "domain": "neural network forward pass matrix operations",
+    "ast_nodes": 74,
+    "cfg_nodes": 45,
+    "cyclomatic_complexity": 1,
+    "loop_count": 0,
+    "function_count": 2,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 147.73
+}

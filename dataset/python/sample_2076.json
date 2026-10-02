@@ -1,0 +1,15 @@
+{
+    "id": "sample_2076",
+    "category": "floating_point_precision",
+    "label": "terminating",
+    "length": "long",
+    "logical_loc": 31,
+    "domain": "temporal frame sequence tracking",
+    "ast_nodes": 275,
+    "cfg_nodes": 163,
+    "cyclomatic_complexity": 3,
+    "loop_count": 2,
+    "function_count": 6,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 4.93
+}

@@ -1,0 +1,15 @@
+{
+    "id": "sample_1208",
+    "category": "data_mutations",
+    "label": "terminating",
+    "length": "short",
+    "logical_loc": 6,
+    "domain": "thermodynamic state simulations",
+    "ast_nodes": 40,
+    "cfg_nodes": 26,
+    "cyclomatic_complexity": 2,
+    "loop_count": 1,
+    "function_count": 1,
+    "execution_status": "SUCCESS",
+    "execution_time_ms": 3.9
+}

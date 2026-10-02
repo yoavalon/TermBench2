@@ -1,0 +1,15 @@
+{
+    "id": "sample_2204",
+    "category": "floating_point_precision",
+    "label": "non_terminating",
+    "length": "medium",
+    "logical_loc": 18,
+    "domain": "fluid dynamics via cellular automata",
+    "ast_nodes": 202,
+    "cfg_nodes": 119,
+    "cyclomatic_complexity": 8,
+    "loop_count": 5,
+    "function_count": 2,
+    "execution_status": "TIMEOUT/RECURSION",
+    "execution_time_ms": 2003.04
+}
